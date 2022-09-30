@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-nav-items li {
+    list-style: none;
+}
+
+
+.li-nav-items li a {
+    text-decoration: none;
+}
+.create-post-btn{
+    background-color: #ff5a5f;
+    padding: 6px 20px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+nav ul li{
+        padding: 3px;
+}
+.header-content h1{
+    font-size: 5rem;
+    padding: 10px;
+    color: #14213d;
+}
+.li-nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    margin: 4px;
+    width: 100%;
+}
+header{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background: url("../img/Sunset.jpg");
+}
+.header-content{
+    text-align: center;
+    padding: 10px;
+}
+.header-content a{
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid;
+    border-color: black;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #333;
+}
+header > div p{
+    margin: 40px;
+}
+p{
+    margin-bottom: 1.5rem;
+    color: #14213d;
+    line-height: 1.4rem;
+}
