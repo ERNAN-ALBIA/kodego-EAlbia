@@ -40,9 +40,12 @@ nav ul li{
     justify-content: center;
     align-items: center;
 }
+img{
+    width: 100%;
+}
 nav img{
     margin: 4px;
-    width: 100%;
+    width: 100PX;
 }
 header{
     display: flex;
@@ -74,4 +77,128 @@ p{
     margin-bottom: 1.5rem;
     color: #14213d;
     line-height: 1.4rem;
+}
+/*MORE ON CONTENT*/
+/* MAIN CONTENT */
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* center content in container*/
+    max-width: 1900px;
+}
+main{
+    padding: 10px;
+}
+.post-content{
+    padding: 10x;
+    display: flex;
+    flex-direction: column;
+}
+.post-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #14213d;
+}
+.post-author{
+    margin: 15px;
+}
+aside{
+    padding: 10px;
+}
+.about-me{
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 1px 1px rgba(0, 0,0,0.3);
+}
+.about-me img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.post-content h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #14213d;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text{
+    color: #ffbe0b;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.logo-text ~ span{
+    color: #fff;
+}
+footer{
+    background-color: #003049;
+    color: #fff;
+}
+.about p{
+   color: #8d99ae; 
+   text-align: center;
+}
+footer .contact i{
+    font-size: 30px;
+    padding: 10px;
+}
+.socials a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fcbf49;
+}
+.contact a{
+    text-decoration: none;
+    color: #0077b6;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.socials{
+    margin-bottom: 10px;
+}
+@media(min-width: 675px){
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .li-nav-items{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    nav ul li{
+        padding: 15px;
+    }
+    main{
+        width: 70%;
+    }
+    aside{
+        width: 30%;
+    }
+    .container-flex{
+        flex-direction: row;
+    }
+
+
+
+
+
 }
