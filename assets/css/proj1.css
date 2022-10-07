@@ -1,9 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
-    margin: 0;
-    padding: 0;
-    background-color: #EEF1FF;
 }
 nav{
     width: 100%;
@@ -11,27 +8,18 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFE7CC;
-    height: 120px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .li-nav-items li {
     list-style: none;
-    font-weight: bold;
 }
 
 
 .li-nav-items li a {
     text-decoration: none;
-    color: #562B08;
 }
 .create-post-btn{
-    background-color: #ff5a5f;
+    background-color: #FFD384;
     padding: 6px 20px;
     color: #ffffff;
     border-radius: 6px;
@@ -53,16 +41,20 @@ nav ul li{
     align-items: center;
 }
 img{
-
-    width: 100px;
-    margin-top: 150px;
+    width: 100%;
 }
 nav img{
     margin: 4px;
-    width: 320PX;
-    float: left;
+    width: 100PX;
 }
-
+header{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background: url("../img/BG.jpg");
+}
 .header-content{
     text-align: center;
     padding: 10px;
@@ -146,7 +138,8 @@ aside{
     color: #fff;
 }
 footer{
-    background-color: #003049;
+    padding: 30px;
+    background-color: #FFE9A0;
     color: #fff;
 }
 .about p{

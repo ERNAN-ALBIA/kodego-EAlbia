@@ -3,69 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="./assets/css/proj1.css">
-    <title>Tea Culture PH</title>
-    
+    <script src="https://kit.fontawesome.com/98a45d60ab.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    
+    <title>Tea Culture PH</title>
+    
 </head>
 <body>
-    <main>
-        <nav>
-            <ul class="li-nav-items">
-                <img src="./assets/img/Logo.png" alt="Logo">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <img src="./assets/img/Logo1.png" alt="Logo1">
+
+    <!-- navigation -->
+    <nav>
+        <img src="./assets/img/Logo1.png" alt="logo">
+        <ul class="li-nav-items">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Menu</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#" class="create-post-btn">Order Now!</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- header -->
+    <header>
+        <div class="header-content">
+            <h1>The Tea Culture PH</h1>    
+            <p>
+              At The Tea Culture PH, our mission is to let the customers experience culture with a novel, healthy.         </p>
+            <a href="#">
+                <span>What are you craving for?</span>
+            </a>
+        </div>
+    </header>
+    <!-- content -->
+    <section class="container-flex">
+        <!-- Main Content Goes Here -->
+        <main>
+            <article class="post-content">
+                <img src="./assets/img/P1_7.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">PITA BREAD WITH HUMMUS AND YOGURT SAUCE</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="October 19, 2020">October 19, 2020</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  Pita bread with hummus is a classic Middle Eastern snack. Hummus and yogurt sauce can be spread on pita bread or used as a dip. Indulge in this protein-rich delicious meal to pair with your favorite yogurt milk tea! </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article>  
+            <hr>
+
+            <article class="post-content">
+                <img src="./assets/img/P1_8.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">Chicken Pesto Pasta With a Tea!</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="August 18, 2021">August 18, 2021</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  Have a cup of positivi-tea today! Pair it with our newest CHICKEN PESTO PASTA! 💚🌿
+                  <br>
+                  DAVAO AND TAGUM BRANCHES OPEN EVERYDAY! </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article>
+            <hr>
+
+            <article class="post-content">
+                <img src="./assets/img/Safety-precaution.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">For Everyone Safety</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="January 17, 2021">January 17, 2021</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  Just a quick reminder to follow all the general precautionary measures to ensure everyone's safety in this ongoing COVID-19 pandemic! 😷
+                  <br>
+                  NO FACE MASK AND FACE SHIELD, NO ENTRY! Let us all stay safe and be healthy.
+                  <br>
+                  ✅ WE ARE OPEN TODAY! We accept deliveries! 🛵  </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article> 
+            
 
 
-                <img src="./assets/img/BG.jpg" alt="background-img">
-                <h1>Feature Products</h1>
-                <p>All our newest drink made <br>to satisfy your cravings!</p>
-
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./assets/img/P1_APPLE.jpg" class="d-block w-100 img-fluid" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/img/P1_BANANA.jpg" class="img-fluid d-block w-100 img-fluid" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/img/P1_CACAO.jpg" class="d-block w-0 img-fluid" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-
-
-
-
-
-
-
+        </main>
+        <!-- Right Side Bar Goes Here -->
+        <aside class="sidebar">
+            <div class="about-me">
+                <img src="./assets/img/Logo1.png" alt="author image" srcset="">
+                <h2 class="about-name">Tea Culture PH</h2>
+                <small> Full Stack Web Developer | Aspiring Martial Artist </small>
+                <p class="about-me-bio">
+                I started my professional career working as a Firmware Engineer from 2002 to 2006. I was responsible for designing PCB Circuit boards both analog and digital using OrCad and Eagle. One of my main role in the company is to write firmware for PIC and ATMEL microcontrollers using Assembly Language, PIC Basic and PLM-51.
+                </p>
             </div>
-        </header>
-    </main>
+             <article class="post-content">
+                <h1>Chicken Tortilla Wrap</h1>
+                <img src="./assets/img/P1_2.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">Chicken Tortilla Wrap</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="2022-09-30">May 25, 2021</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  Starting May 25, 2021, the Chicken Tortilla Wrap will be available in our Davao store! 🥬
+                  Made with malunggay tortilla, shredded chicken, fresh lettuce, and yogurt sauce! Also available in spicy. 🌶 </p>
+                <a href="#" class="post-read-more">More Info.</a>
+                  <hr>
+
+            </article>
+            <article class="post-content">
+                <h1>Sweet Tableya</h1>
+                <img src="./assets/img/P1_3.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">Sweet Tableya</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="January 2022">January 2022</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  What Is Tablea, Or “Tableya?”
+                  Put simply, tablea is a ball of ground-up cacao beans, usually heated and combined with water to make a traditional Filipino chocolate drink called sikwate. Many people cite that the name tablea (or tableya) refers to the Spanish word for “tablet,” a reference to the food’s shape. But the name may also come from the Spanish word tablear, meaning rolling and dividing, an allusion to the way in which the balls are formed. </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article> 
+            <hr>
+
+            <article class="post-content">
+                <h1>Chicken Pesto Pasta</h1>
+                <img src="./assets/img/P2_P.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">Chicken Pesto Pasta</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="January 2022">January 2022</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  We know you have been waiting for this! 🎉
+
+                  Introducing the newest dish in our menu, our very own Chicken Pesto Pasta! And yes, you’re right, its sauce is specially made with pesto and yogurt! 🌿
+                  </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article>
+            <hr>
+            <article class="post-content">
+                <h1>The Culture Spoon</h1>
+                <img src="./assets/img/P1_6.jpg" class="post-image" alt="post-image">
+                <p class="post-info">
+                    <span class="post-author">
+                      <i class="fa-solid fa-flag"></i>
+                        <a href="#">Culture Spoon</a>
+                    </span>
+                    <span class="post-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <time datetime="February 2022">February 2022</time>
+                    </span>
+                </p>
+                <p class="post-body">
+                  WE HEARD YOU! 🥳
+                  <br>
+                  We now offer The Culture Spoon homemade yogurt products!
+                  <br>
+                  Flavors available:
+                  🐮 Plain Unsweetened Yogurt <br>
+                  🥭 Mango Yogurt <br>
+                  🍌 Caramelized Banana Yogurt <br>
+                  🍎 Apple Cinnamon Yogurt <br>
+                  🫐 Blackberry Yogurt <br>
+                  🌳 Durian Yogurt <br>
+                  ---LIMITED ONLY---
+                </p>
+                <a href="#" class="post-read-more">More Info.</a>
+            </article>
+              
+        </aside>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="about">
+            <h1>
+                <span class="logo-text">The Tea Culture PH</span>
+                <span>Site</span>
+            </h1>
+            <p>The firts Yugort Milktea is here.</p>
+            <div class="contact">
+                <span>
+                    <i class="fas fa-phone"></i>
+                    0966-750-8483
+                </span>
+                <span>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:support@theteacultureph.com">support@theteacultureph.com</a>
+                </span>
+            </div>
+            <div class="socials">
+                <a href="http://youtube.com">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
+   
 </body>
 </html>
