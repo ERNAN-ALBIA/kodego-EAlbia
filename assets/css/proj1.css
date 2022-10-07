@@ -32,7 +32,8 @@ nav ul li{
 .header-content h1{
     font-size: 5rem;
     padding: 10px;
-    color: #14213d;
+    color: #000;
+    margin-top: 220px;
 }
 .li-nav-items{
     display: flex;
@@ -139,7 +140,7 @@ aside{
 }
 footer{
     padding: 30px;
-    background-color: #FFE9A0;
+    background-color: #181818;
     color: #fff;
 }
 .about p{
@@ -154,7 +155,7 @@ footer .contact i{
     margin: 10px;
     text-decoration: none;
     font-size: 30px;
-    color: #fcbf49;
+    color: #FFF6BF;
 }
 .contact a{
     text-decoration: none;
