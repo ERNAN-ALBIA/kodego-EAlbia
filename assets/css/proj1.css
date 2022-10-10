@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600;1,800;1,900&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
 body{
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
+    background-color: #EDDBC0;
 }
 nav{
     width: 100%;
@@ -8,15 +11,34 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFE7CC;
 }
 
 .li-nav-items li {
     list-style: none;
 }
-
-
+.header-content h1{
+font-family: 'Roboto', sans-serif;
+font-size: 100px;
+font-weight: bolder;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
 .li-nav-items li a {
     text-decoration: none;
+    color: #3C2317;
+    font-weight: bold;
+    font-size: 18px;
 }
 .create-post-btn{
     background-color: #FFD384;
@@ -41,6 +63,7 @@ nav ul li{
     justify-content: center;
     align-items: center;
 }
+
 img{
     width: 100%;
 }
