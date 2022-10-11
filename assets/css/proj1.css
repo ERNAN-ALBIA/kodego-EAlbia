@@ -13,6 +13,37 @@ nav{
     align-items: center;
     background-color: #FFE7CC;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+    padding: 20px;
+    margin: 5px;
+    gap: 20px;
+    column-gap: 30px;
+    flex-flow: row wrap;
+}
+
+.promo{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+}
+.promo button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color:#FFE7CC;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3C2317;
+}
+.promo button:hover {
+    background-color:#FFE7CC;
+    color: #3C2317;
+    border-color: #000;
+}
 
 .li-nav-items li {
     list-style: none;
