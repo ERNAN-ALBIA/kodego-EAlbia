@@ -7,6 +7,7 @@ body{
 }
 nav{
     width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +50,7 @@ nav{
     list-style: none;
 }
 .header-content h1{
-font-family: 'Roboto', sans-serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 100px;
 font-weight: bolder;
 }
@@ -69,6 +70,7 @@ font-weight: bolder;
     text-decoration: none;
     color: #3C2317;
     font-weight: bold;
+    padding: 8px;
     font-size: 18px;
 }
 .create-post-btn{
@@ -79,13 +81,26 @@ font-weight: bolder;
     font-size: 1.2rem;
     cursor: pointer;
 }
+.post-body{
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px;
+    gap: 2px;
+}
+.post-read-more{
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px;   
+    text-decoration: none;
+    color: #3C2317;
+}
 nav ul li{
         padding: 3px;
 }
 .header-content h1{
     font-size: 5rem;
     padding: 10px;
-    color: #000;
+    color: #ffffff;
     margin-top: 220px;
 }
 .li-nav-items{
@@ -128,6 +143,23 @@ header{
 header > div p{
     margin: 40px;
 }
+/*MENU - P BEST SELLER*/
+.header-content-menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    
+}
+.header-content-menu h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 40px;
+font-weight: bolder;
+text-decoration: underline;
+text-align: center;
+}
 p{
     margin-bottom: 1.5rem;
     color: #14213d;
@@ -141,6 +173,34 @@ p{
     margin: 0 auto; /* center content in container*/
     max-width: 1900px;
 }
+/* CARDS FOR MENU*/
+.card {
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+  }
+  
+  .container {
+    padding: 2px;
+    gap: 10px;
+  }
+
 main{
     padding: 10px;
 }
@@ -172,6 +232,28 @@ aside{
     border-radius: 50%;
     margin: 0 auto;
 }
+.about-me-1{
+    padding: 10px;
+    text-align: center;
+}
+.about-me-1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    text-indent: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #000;
+    padding: 30px; 
+     line-height: 1.8;
+}
+.about-me-1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 .post-content h1{
     font-size: 2.8rem;
     font-weight: bold;
@@ -184,9 +266,10 @@ aside{
     justify-content: center;
     align-items: center;
 }
+
 .logo-text{
-    color: #ffbe0b;
-    font-size: 3.5rem;
+    color: #FFE7CC;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .logo-text ~ span{
@@ -225,9 +308,40 @@ footer .contact i{
     font-size: 1.5rem;
     padding: 10px;
 }
+
 .socials{
     margin-bottom: 10px;
 }
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    
+    background-color: #3C2317;
+    color: #Fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FFE7CC;
+    color: #3C2317;
+  }
+  
+
+
 @media(min-width: 675px){
 
     nav{
