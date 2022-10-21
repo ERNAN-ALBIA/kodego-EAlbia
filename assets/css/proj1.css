@@ -195,10 +195,25 @@ p{
     border-radius: 5px 5px 0 0;
     object-fit: cover;
   }
+  .Add-to-cart{
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #EDDBC0;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+  }
   
   .container {
     padding: 2px;
     gap: 10px;
+    width: 100%;/*whatever size you want your container*/
+    display: flex; /*Make sure to call this on your container*/
+    align-items: stretch; /*stretches all cards same height*/
+    justify-content: space-around; /*some space between cards*/
   }
 
 main{
@@ -323,24 +338,77 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+  /*IMAGES SLIDER*/
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 300%;
+    
+    height: 50%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+#slider figure img{
+    width:  20%;
+    height: 50%;
+    float: left;
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+
   input[type=submit] {
     
-    background-color: #3C2317;
-    color: #Fff;
+    background-color: #FFD384;
+    color: #3C2317;
     padding: 12px 20px;
-    border: none;
+    border: 10px;
+    width: 50%; 
+    text-align: center;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
+    border-color: black;
   }
+
   
   input[type=submit]:hover {
-    background-color: #FFE7CC;
-    color: #3C2317;
+    background-color: #FDEEDC;
+    color: #000;
+    border-color: black;
   }
   
-
 
 @media(min-width: 675px){
 
@@ -366,9 +434,4 @@ input[type=text], select, textarea {
     .container-flex{
         flex-direction: row;
     }
-
-
-
-
-
 }
